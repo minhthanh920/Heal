@@ -1,0 +1,10 @@
+Messages:
+   Heal: 'Healed'
+   HealBy: 'You healed by %player% '
+   HealOtherPlayer: 'you are heal for %player%'
+   Console: 'Can not use this command on console'
+   NoPermission: 'You are no permission to do this command'
+   NotFound: 'The player could not be found or offline'
+   Unknow: 'Unknow'
+   reload: 'reloaded'
+   help: '/heal <player>'

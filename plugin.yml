@@ -1,0 +1,20 @@
+name: Heal
+description: Simple heal plugin
+main: io.github.minhthanh920.Heal.Heal
+version: 1.0
+author: minhthanh920
+depend: 
+commands:
+  heal:
+    description: Healing
+permissions:
+      heal.*:
+         children:
+            heal.use: true
+            heal.reload: true
+      heal.use:
+         description: Gives access to the use command
+         default: op
+      heal.reload:
+         description: Gives access to the reload command
+         default: op
